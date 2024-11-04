@@ -1,4 +1,3 @@
-
 # PG Life 
 
 ![PG Life Logo](https://i.postimg.cc/GtjmQSbR/logo.png)
@@ -11,8 +10,6 @@ PG Life is a modern and user-friendly web application designed to streamline the
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 - [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 - [Conclusion](#conclusion)
 
@@ -44,6 +41,35 @@ PG Life is a modern and user-friendly web application designed to streamline the
    - MySQL
 - **Styling Framework:** 
    - Custom CSS
+### File Structure
+PG_Life_Project/
+│
+├── PG_LIFE_HOME.HTML             # Home Page
+├── PG_LIFE_HOME.CSS              # Styles for Home Page
+│
+├── SIGN_UP.HTML                   # Sign-Up Page
+├── SIGN_UP.CSS                    # Styles for Sign-Up Page
+├── PG_LIFE_SIGN_UP.PHP           # PHP Logic for Sign-Up
+│
+├── LOGIN_PAGE.HTML                # Login Page
+├── LOGIN_PAGE.PHP                 # PHP Logic for Login
+│
+├── PROPERTY_LIST.HTML             # Property List Page
+├── PROPERTY_LIST.CSS              # Styles for Property List Page
+│
+├── PROPERTY_DETAILS.HTML           # Property Details Page
+├── PROPERTY_DETAILS.CSS            # Styles for Property Details Page
+│
+├── PG_LIFE_BOOKING.HTML           # Room Booking Page
+├── PG_LIFE_BOOKING.CSS            # Styles for Room Booking Page
+├── PG_LIFE_BOOKING.JS             # JavaScript for Room Booking
+│
+├── PROCESS_BOOKING.PHP            # PHP Logic to Process Booking
+│
+├── BOOKING_RECEIPT.PHP            # Booking Receipt Page
+├── RECEIPT.CSS                    # Styles for Receipt Page
+│
+└── README.md                      # Project Documentation
 
 ### HOME PAGE
 ![Home Page](https://i.postimg.cc/PJbQMhLq/Screenshot-2024-11-04-190648.png)
@@ -74,5 +100,12 @@ PG Life is a modern and user-friendly web application designed to streamline the
 
 ### Conclusion
 The PG Life project provides a streamlined solution for booking accommodations, focusing on user-friendly design and secure payment options. It allows users to effortlessly check availability, enter personal details, and receive instant booking confirmations. By enhancing the overall user experience with clear layouts and attractive presentation, PG Life effectively meets the needs of modern travelers, making the process of finding and securing comfortable lodging both simple and efficient. This project not only addresses a functional need but also showcases the potential of web applications in the hospitality industry.
+
+### Contact
+For questions or assistance:
+
+Name : Chalapala Sandeep Kumar Reddy
+Email: chalapalasandeepkumarreddy@gmail.com
+LinkedIn: https://www.linkedin.com/in/chalapalasandeepkumarreddy9908/
 
 
