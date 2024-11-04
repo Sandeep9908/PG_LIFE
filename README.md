@@ -10,8 +10,8 @@ PG Life is a modern and user-friendly web application designed to streamline the
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 - [File Structure](#file-structure)
-- [Contact](#contact)
 - [Conclusion](#conclusion)
+- [Contact](#contact)
 
 ---
 
@@ -70,7 +70,7 @@ PG_Life_Project/
 ├── RECEIPT.CSS                    # Styles for Receipt Page
 │
 └── README.md                      # Project Documentation
-
+### Screenshots
 ### HOME PAGE
 ![Home Page](https://i.postimg.cc/PJbQMhLq/Screenshot-2024-11-04-190648.png)
 
@@ -104,8 +104,8 @@ The PG Life project provides a streamlined solution for booking accommodations, 
 ### Contact
 For questions or assistance:
 
-Name : Chalapala Sandeep Kumar Reddy
-Email: chalapalasandeepkumarreddy@gmail.com
-LinkedIn: https://www.linkedin.com/in/chalapalasandeepkumarreddy9908/
+- Name : Chalapala Sandeep Kumar Reddy
+- Email: chalapalasandeepkumarreddy@gmail.com
+- LinkedIn: https://www.linkedin.com/in/chalapalasandeepkumarreddy9908/
 
 
