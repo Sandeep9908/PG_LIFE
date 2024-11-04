@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-image: url("46ebbb537aa9fb0a.jpg"); /* Set the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Scale the image to cover the entire viewport */
+    background-attachment: fixed; /* Keep the background fixed during scrolling */
+    background-color: #f0f0f0; /* Fallback color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* Adjust padding as necessary */
+    height: 100px; /* Fixed height for the header */
+    width: 100%; 
+    z-index: 10; 
+}
+
+.pg_life_header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 20px; 
+    height: 100%; /* Make sure the header takes the full height */
+}
+
+.pg_life_nav {
+    position: relative; 
+}
+
+#nav_links {
+    list-style-type: none; 
+    display: flex; 
+    margin-left: auto; /* Align navigation links to the right */
+}
+
+#nav_links li {
+    margin-left: 20px; 
+    font-weight: bold; 
+}
+
+#nav_links li a {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+}
+
+#nav_links li a:hover {
+    color: rgb(85, 237, 224);
+}
+
+
+.signup_box{
+    width:360px;
+    /* height:550px; */
+    background-color: rgba(255, 255, 255, 0.179);
+    font-family: 'roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 38%;
+    justify-content: center;
+}
+
+@media(max-width:900px){
+    .signup_box{
+        position: relative;
+        left:-100px;
+    }
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width:300px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+form lable{
+    display: flex;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+
+form input{
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border: 1px solid grey;
+    background-color: rgba(125, 125, 125, 0.399);
+    border-radius: 30px;
+}
+
+
+input[type="submit"]{
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: orange;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 25px;
+    text-align:center;
+}
+
+input[type="reset"]{
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    background-color: orange;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 25px;
+    text-align:center;
+}   
+
+.par-1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+span{
+    color: red;
+}

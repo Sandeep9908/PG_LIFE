@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    position: fixed; 
+    height: 100px; 
+    width: 100%; 
+    z-index: 100; 
+}
+
+.pg_life_header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 20px; 
+}
+
+.pg_life_nav {
+    position: relative; 
+}
+
+#nav_links {
+    list-style-type: none; 
+    display: flex; 
+}
+
+#nav_links li {
+    margin-left: 20px; 
+    font-weight: bold; 
+}
+
+#nav_links li a {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+}
+
+#nav_links li a:hover {
+    color:rgb(85, 237, 224);
+}
+
+
+.b{
+    top: 60px;
+    width:100%;
+    position: fixed;
+    background-image: url("bg.png");
+    background-position: center;
+    background-attachment: fixed;
+}
+.c{
+    text-align:"center";
+    position: relative;
+    top:280px;
+}
+
+.m1{
+    top: 400px;
+    color: black;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.m{
+    top: 580px;
+    width:100%;
+    position: relative;
+    color: black;
+    display: inline-block;
+    height:25vh;
+    background-color:white;
+    line-height: 150px;
+}
+.m img{
+    height: 100px;
+    width: 120px;
+    padding:0px 15px;
+    clip-path: circle();
+    border-radius:100%;
+    border:5px solid blue;
+    background-color: white;
+}
+
+.as_bottom{
+    position: relative;
+    top:575px;
+    height:auto;
+    width:100%;
+    bottom:0;
+    background-color: black;
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+}
+
+.as_bottom ul{
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+}
+.as_bottom ul li{
+    display:inline-block;
+    line-height: 40px;
+    margin:0 5px ;
+}
+.as_bottom ul li a{
+    display:inline-block;
+    color: wheat;
+    padding:0px 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+}
+.as_bottom p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.as_bottom a:hover{
+    color:blue; 
+    opacity: 0.5;
+    font-family: 19px;
+    background-color:aqua;
+}
+
+@media (max-width: 768px) {
+    .b{
+        top: 60px;
+        height: 50%;
+    }
+    .c{
+        top:250px;
+    }
+    .m1{
+        top: 300px;
+    }
+    .m{
+        top: 350px;
+        height: auto;
+    }
+    .as_bottom{
+        top:350px;
+    }
+
+}

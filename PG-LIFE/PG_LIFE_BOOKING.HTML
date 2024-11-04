@@ -1,0 +1,307 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Life Room Booking</title>
+    <link rel="stylesheet" href="PG_LIFE_BOOKING.CSS">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Room at PG Life</h1>
+        <form id="bookingForm">
+            <h2>Room Details</h2>
+            <p>Room Type: Deluxe Room</p>
+            <p>Price: ₹2500 per Day</p>
+
+            <h2>Your Details</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <h2>Payment Information</h2>
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+
+            <label for="expiry">Expiry Date (MM/YY):</label>
+            <input type="text" id="expiry" name="expiry" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+
+        <div id="receipt" class="hidden">
+            <h2>Receipt</h2>
+            <p id="receiptDetails"></p>
+            <button onclick="printReceipt()">Print Receipt</button>
+        </div>
+    </div>
+
+    <script src="PG_LIFE_BOOKING.JS"></script>
+</body>
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Life Room Booking</title>
+    <link rel="stylesheet" href="PG_LIFE_BOOKING.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Room at PG Life</h1>
+        <form id="bookingForm">
+            <h2>Room Details</h2>
+            <p>Room Type: Deluxe Room</p>
+            <p>Price: ₹2500 per Day</p>
+
+            <h2>Your Details</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <h2>Payment Information</h2>
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+
+            <label for="expiry">Expiry Date (MM/YY):</label>
+            <input type="text" id="expiry" name="expiry" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+
+        <div id="receipt" class="hidden">
+            <div class="watermark-logo">
+                <img src="PG_LIFE_LOGO.png" alt="PG Life Logo" class="logo">
+            </div>
+            <h2>Booking Receipt</h2>
+            <div class="receipt-details">
+                <p><strong>Full Name:</strong> <span id="receiptName"></span></p>
+                <p><strong>Email:</strong> <span id="receiptEmail"></span></p>
+                <p><strong>Phone Number:</strong> <span id="receiptPhone"></span></p>
+                <p><strong>Room Type:</strong> Deluxe Room</p>
+                <p><strong>Price per Day:</strong> ₹2500</p>
+                <p><strong>Check-in Date:</strong> <span id="receiptCheckin"></span></p>
+                <p><strong>Check-out Date:</strong> <span id="receiptCheckout"></span></p>
+                <p><strong>Total Amount:</strong> <span id="receiptTotal"></span></p>
+        
+                // Key Points about PG Life
+                <div class="pg-life-key-points">
+                    <h3>Why Choose PG Life?</h3>
+                    <p>- Comfort and Convenience with Fully-Furnished Rooms</p>
+                    <p>- Flexible, Hassle-Free Bookings to Suit Your Lifestyle</p>
+                </div>
+        
+                <button onclick="printReceipt()">Print Receipt</button>
+            </div>
+        </div>
+        
+
+    <script src="PG_LIFE_BOOKING.js"></script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Life Room Booking</title>
+    <link rel="stylesheet" href="PG_LIFE_BOOKING.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Room at PG Life</h1>
+        <form id="bookingForm">
+            <h2>Room Details</h2>
+            <p>Room Type: Deluxe Room</p>
+            <p>Price: ₹2500 per Day</p>
+
+            <h2>Your Details</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <h2>Payment Information</h2>
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+
+            <label for="expiry">Expiry Date (MM/YY):</label>
+            <input type="text" id="expiry" name="expiry" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+
+     
+        <div id="receipt" class="hidden">
+            <div class="watermark-logo">
+                <img src="logo.png" alt="PG Life Logo" class="logo">
+            </div>
+            <h2>Booking Receipt</h2>
+            <div class="receipt-details">
+                <p><strong>Full Name:</strong> <span id="receiptName"></span></p>
+                <p><strong>Email:</strong> <span id="receiptEmail"></span></p>
+                <p><strong>Phone Number:</strong> <span id="receiptPhone"></span></p>
+                <p><strong>Room Type:</strong> Deluxe Room</p>
+                <p><strong>Price per Day:</strong> ₹2500</p>
+                <p><strong>Check-in Date:</strong> <span id="receiptCheckin"></span></p>
+                <p><strong>Check-out Date:</strong> <span id="receiptCheckout"></span></p>
+                <p><strong>Total Amount:</strong> <span id="receiptTotal"></span></p>
+
+                
+                <div class="pg-life-key-points">
+                    <h3>Why Choose PG Life?</h3>
+                    <p>- Comfort and Convenience with Fully-Furnished Rooms</p>
+                    <p>- Flexible, Hassle-Free Bookings to Suit Your Lifestyle</p>
+                </div>
+
+                <button onclick="printReceipt()">Print Receipt</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="PG_LIFE_BOOKING.js"></script>
+</body>
+</html> -->
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Life Room Booking</title>
+    <link rel="stylesheet" href="PG_LIFE_BOOKING.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Room at PG Life</h1>
+        <form id="bookingForm" action="process_booking.php" method="post">
+            <h2>Room Details</h2>
+            <p>Room Type: Deluxe Room</p>
+            <p>Price: ₹2500 per Day</p>
+
+            <h2>Your Details</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <h2>Payment Information</h2>
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+
+            <label for="expiry">Expiry Date (MM/YY):</label>
+            <input type="text" id="expiry" name="expiry" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+
+    <script src="PG_LIFE_BOOKING.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Life Room Booking</title>
+    <link rel="stylesheet" href="PG_LIFE_BOOKING.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Your Room at PG Life</h1>
+        <form id="bookingForm" action="process_booking.php" method="POST">
+            <h2>Room Details</h2>
+            <p>Room Type: Deluxe Room</p>
+            <p>Price: ₹2500 per Day</p>
+
+            <h2>Your Details</h2>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <h2>Payment Information</h2>
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+
+            <label for="expiry">Expiry Date (MM/YY):</label>
+            <input type="text" id="expiry" name="expiry" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>

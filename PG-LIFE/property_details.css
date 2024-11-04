@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    /* padding: 20px 0; */
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 10;
+}
+
+.pg_life_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.pg_life_nav {
+    position: relative;
+}
+
+#nav_links {
+    list-style-type: none;
+    display: flex;
+}
+
+#nav_links li {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#nav_links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+#nav_links li a:hover {
+    color: rgb(85, 237, 224);
+}
+
+.carousel-inner img {
+    margin-top: 100px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 15px;
+    border-radius: 8px;
+    bottom: 20px; /* Adjusting the position of the caption */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    max-width: 80%; /* Ensure it doesn't span too wide */
+    position: absolute; /* Keep the caption positioned on top of the image */
+    color: #fff;
+}
+
+/* Ensure all content inside the caption is white */
+.carousel-caption h5, 
+.carousel-caption p {
+    color: #fff; /* White color for text and headings */
+}
+
+.container {
+    position: relative;
+    background-color: lightgreen;
+    margin: 15px auto; 
+    width: 100%; 
+    padding: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; /* Unified margin handling */
+}
+
+.col1 {
+    padding: 10px;
+    flex: 1 1 calc(50% - 20px);
+    color: black;
+    max-width: 100%;
+}
+
+.col1 img {
+    height: 150px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.rat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fav {
+    margin-left: 5px;
+}
+
+.rate {
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #f9f9f9;
+}
+
+.rate:not(:checked) > label:before {
+    content: '★ '; /* Star character */
+}
+
+.rate > input:checked ~ label {
+    color: #ff0000;    
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #de1717;  
+}
+
+.p-name {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    margin-top: 15px;
+    font-size: large;
+}
+
+.p-address {
+    color: #625f5f;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.p-gender img {
+    width: 40px;
+    height: 40px;
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+    color: #3c3c3a;
+    font-weight: bold;
+}
+
+.view-link {
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.view-link a {
+    text-decoration: none;
+}
+
+.p1 {
+    position: relative;
+    background-color: lightgreen;
+    /* top: 100px; */
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    max-width: 100%;
+    padding: 15px;  
+}
+
+.h {
+    font-size: 30px;
+    margin: 0 0 20px; /* Adjust margin for better spacing */
+    color: black;
+    font-weight: bold;
+}
+
+.page-con {
+    padding: 25px 15px;
+    width: 100%;
+    background-color: lightgray;
+    justify-content: space-between !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0; /* Unified margin handling */
+    justify-content: space-between !important;
+}
+
+.col {
+    margin-left: 10px;
+    padding: 0 10px;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    color: black;
+}
+
+p {
+    color: black;
+    margin-bottom: 2px;
+}
+
+.rating-circle {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.avg-rating {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.star-container {
+    margin-top: 5px;
+    position: relative;
+    width: 90px; /* Adjust width based on star size */
+    height: 18px;
+    font-size: 18px;
+}
+
+/* Background stars (gray) */
+.stars-bg {
+    color: #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Filled stars (yellow) */
+.stars-filled {
+    color: #ffcc00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%; /* Adjust width for 4.5 stars */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.people-say {
+    padding: 0 160px 30px;
+    margin-top: 100px;
+    background-color: darkgrey;
+}
+
+.people-img {
+    text-align: center;
+}
+
+.people-img img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+}
+
+.people-text {
+    text-align: center;
+    position: relative;
+    color: black;
+}
+
+.people-name {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.as_bottom{
+    position: relative;
+    height:auto;
+    width:100%;
+    bottom:0;
+    background-color: black;
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.as_bottom ul{
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+}
+.as_bottom ul li{
+    display:inline-block;
+    line-height: 40px;
+    margin:0 5px ;
+}
+.as_bottom ul li a{
+    display:inline-block;
+    color: wheat;
+    padding:0px 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.as_bottom p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.as_bottom a:hover{
+    color:blue; 
+    opacity: 0.5;
+    font-family: 19px;
+    background-color:aqua;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .col1 {
+        flex: 1 1 100%; 
+    }
+
+    .container {
+        width: 95%; 
+    }
+
+    .as_bottom ul li a {
+        font-size: 20px; 
+    }
+}

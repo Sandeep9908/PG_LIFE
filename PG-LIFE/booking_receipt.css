@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styling */
+.container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #9396db; /* Coral border */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+}
+
+/* Title styling */
+h1 {
+    color: #61dfff; /* Coral color */
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Logo styling */
+img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: auto;
+    opacity: 0.9;
+}
+
+/* Styling for text details */
+p {
+    font-size: 16px;
+    color: #444; /* Darker text color for readability */
+    margin: 5px 0;
+    text-align: left;
+    line-height: 1.6;
+}
+
+p strong {
+    color: #0d0d0d; /* Coral color for labels */
+}
+
+/* Key points section */
+.pg-life-key-points {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f2f1; /* Light coral background */
+    border: 1px solid #0d0c0c;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.pg-life-key-points h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.pg-life-key-points p {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Button styling */
+button {
+    margin-top: 25px;
+    background-color: #0077b6; /* Blue color */
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #005f8d; /* Darker blue */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Decorative Borders */
+.container::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 80%;
+    background-color: black;
+    margin: 0 auto 15px;
+    border-radius: 5px;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 80%;
+    background-color: black;
+    margin: 15px auto 0;
+    border-radius: 5px;
+}
+
+/* Print-specific styles */
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    .container {
+        border: 2px solid #9396db;
+        padding: 30px;
+    }
+
+    button {
+        display: none;
+    }
+}
