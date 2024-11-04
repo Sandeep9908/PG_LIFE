@@ -10,8 +10,8 @@ PG Life is a modern and user-friendly web application designed to streamline the
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 - [File Structure](#file-structure)
-- [Conclusion](#conclusion)
 - [Contact](#contact)
+- [Conclusion](#conclusion)
 
 ---
 
@@ -70,40 +70,40 @@ PG_Life_Project/
 ├── RECEIPT.CSS                    # Styles for Receipt Page
 │
 └── README.md                      # Project Documentation
-### Screenshots
+
+
+## Screenshots
 ### HOME PAGE
 ![Home Page](https://i.postimg.cc/PJbQMhLq/Screenshot-2024-11-04-190648.png)
-
 ![Home Page](https://i.postimg.cc/bY1gP06j/Screenshot-2024-11-04-190714.png)
 
 ### SIGN_UP PAGE
-![sign_up page](https://i.postimg.cc/HnSVmPR2/Screenshot-2024-11-04-191212.png)
+![Sign Up Page](https://i.postimg.cc/HnSVmPR2/Screenshot-2024-11-04-191212.png)
 
 ### LOGIN PAGE
-![login page](https://i.postimg.cc/jqvWyL27/Screenshot-2024-11-04-191247.png)
+![Login Page](https://i.postimg.cc/jqvWyL27/Screenshot-2024-11-04-191247.png)
 
 ### PROPERTY LIST 
-![PROPERTY](https://i.postimg.cc/SxQbCxXJ/Screenshot-2024-11-04-191751.png)
+![Property List](https://i.postimg.cc/SxQbCxXJ/Screenshot-2024-11-04-191751.png)
+
 ### PROPERTY DETAILS 
-![PROPERTY](https://i.postimg.cc/VvP36fQs/Screenshot-2024-11-04-192042.png)
+![Property Details 1](https://i.postimg.cc/VvP36fQs/Screenshot-2024-11-04-192042.png)
+![Property Details 2](https://i.postimg.cc/wjW8VYJF/Screenshot-2024-11-04-192114.png)
+![Property Details 3](https://i.postimg.cc/CKzyrrs0/Screenshot-2024-11-04-192147.png)
 
-![PROPERTY](https://i.postimg.cc/wjW8VYJF/Screenshot-2024-11-04-192114.png)
-
-![PROPERTY](https://i.postimg.cc/CKzyrrs0/Screenshot-2024-11-04-192147.png)
 ### Room Booking Form
 ![Room Booking Form](https://i.postimg.cc/8kyRNyh9/Screenshot-2024-11-04-192658.png)
 
 ### Booking Receipt
-![Booking Receipt](https://i.postimg.cc/3JdgRg1R/Screenshot-2024-11-04-192829.png)
+![Booking Receipt 1](https://i.postimg.cc/3JdgRg1R/Screenshot-2024-11-04-192829.png)
+![Booking Receipt 2](https://i.postimg.cc/02F7JbXC/Screenshot-2024-11-04-192904.png)
 
-![Booking Receipt](https://i.postimg.cc/02F7JbXC/Screenshot-2024-11-04-192904.png)
+## Conclusion
+The PG Life project provides a streamlined solution for booking accommodations, focusing on user-friendly design and secure payment options. It allows users to effortlessly check availability, enter personal details, and receive instant booking confirmations. By enhancing the overall user experience with clear layouts and attractive presentations, PG Life effectively meets the needs of modern travelers, making the process of finding and securing comfortable lodging both simple and efficient. This project not only addresses a functional need but also showcases the potential of web applications in the hospitality industry.
 
-### Conclusion
-The PG Life project provides a streamlined solution for booking accommodations, focusing on user-friendly design and secure payment options. It allows users to effortlessly check availability, enter personal details, and receive instant booking confirmations. By enhancing the overall user experience with clear layouts and attractive presentation, PG Life effectively meets the needs of modern travelers, making the process of finding and securing comfortable lodging both simple and efficient. This project not only addresses a functional need but also showcases the potential of web applications in the hospitality industry.
-
-### Contact
+## Contact
 For questions or assistance:
 
-- Name : Chalapala Sandeep Kumar Reddy
-- Email: chalapalasandeepkumarreddy@gmail.com
-- LinkedIn: https://www.linkedin.com/in/chalapalasandeepkumarreddy9908/
+- **Name:** Chalapala Sandeep Kumar Reddy
+- **Email:** chalapalasandeepkumarreddy@gmail.com
+- **LinkedIn:** [Chalapala Sandeep Kumar Reddy](https://www.linkedin.com/in/chalapalasandeepkumarreddy9908/)
